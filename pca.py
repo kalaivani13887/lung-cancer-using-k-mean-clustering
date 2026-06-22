@@ -1,3 +1,7 @@
+principle component analysis features reduce pandrathu atha etho da velayee prom data prepare pannuthu
+
+
+
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.cluster import KMeans
@@ -62,4 +66,4 @@ print("Silhouette Score:", round(score, 2))
 joblib.dump(model, 'lung_cancer_kmeans_pca.pkl')
 joblib.dump(pca, 'pca_model.pkl')
 
-print("Model and PCA saved successfully!")
+print("Model and PCA saved successfully!")/*ethula accuracy varathu yana ithu unsupervisied learinig
